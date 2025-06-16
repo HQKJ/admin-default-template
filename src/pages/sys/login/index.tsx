@@ -283,7 +283,7 @@ const Login: FC = () => {
 
               {/* 标题 */}
               <Typography.Title level={2} className={styles.title}>
-                {{systemName}}
+                {import.meta.env.VITE_SYSTEM_NAME}
               </Typography.Title>
 
               {/* 登录iframe容器 */}

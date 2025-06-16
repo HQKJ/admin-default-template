@@ -11,7 +11,7 @@ const App = () => {
       <AntdApp>
         <>
           <Helmet>
-            <title>{{systemName}}</title>
+            <title>{import.meta.env.VITE_SYSTEM_NAME}</title>
             <link rel="icon" href={Logo} />
           </Helmet>
 
