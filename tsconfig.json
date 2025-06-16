@@ -1,0 +1,7 @@
+{
+  "extends": "@admin/tsconfig/base.json",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}

@@ -1,0 +1,18 @@
+/* 自定义重置样式 */
+@import './base.css';
+
+/* 第三方库样式 */
+@import './global.css';
+
+.ant-card-contain-tabs.ant-card {
+  --ant-card-tabs-margin-bottom: 0;
+  padding-top: 0 !important;
+}
+
+.observer-container {
+  height: 100%;
+}
+
+.observer-container > .ant-tabs-top {
+  height: 100%;
+}
